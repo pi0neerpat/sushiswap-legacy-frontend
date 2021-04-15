@@ -13,18 +13,18 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={chef} height={120} />}
-        title="MasterChef is Ready"
-        subtitle="Stake Uniswap LP tokens to claim your very own yummy SUSHI!"
+        title="Unlock Discount Token"
+        subtitle="Stake Uniswap LP tokens to earn UDT"
       />
 
       <Container>
         <Balances />
       </Container>
       <Spacer size="lg" />
-      <StyledInfo>
+    {/*  <StyledInfo>
         🏆<b>Pro Tip</b>: SUSHI-ETH UNI-V2 LP token pool yields TWICE more token
         rewards per block.
-      </StyledInfo>
+      </StyledInfo>*/}
       <Spacer size="lg" />
       <div
         style={{
